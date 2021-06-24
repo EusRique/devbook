@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	println("Hello Worlds!!!")
+	println("Hello World!!!")
 
 	r := router.Gerar()
 

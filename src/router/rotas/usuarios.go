@@ -1,7 +1,7 @@
 package rotas
 
 import (
-	"devbook/src/router/controllers"
+	"devbook/src/controllers"
 	"net/http"
 )
 

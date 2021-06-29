@@ -20,9 +20,9 @@ services:
     image: mysql:5.7.22
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_DATABASE: golang-docker
+      MYSQL_USER: golang
+      MYSQL_PASSWORD: golang
+      MYSQL_DATABASE: devbook
     container_name: devbook-db
     ports:
       - 33066:3306

@@ -11,7 +11,6 @@ import (
 func main() {
 	config.Carregar()
 
-	println(config.StringConexaoBanco)
 	println("API Rodando!!!")
 
 	r := router.Gerar()

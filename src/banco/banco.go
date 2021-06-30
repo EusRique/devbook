@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"devbook/src/config"
 
-	_ "github.com/go-sql-driver/mysq" // Driver
+	_ "github.com/go-sql-driver/mysql" // Driver
 )
 
 func Conectar() (*sql.DB, error) {
